@@ -1,0 +1,61 @@
+#topmenu {
+    color: #222;
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+#top_buttons {
+    position: relative;
+    top: 0px;
+    right: 0;
+    width: 100%;
+    font-size: 13px;
+    display: block;
+    background: #fff;
+    color: #222;
+    font-family: arial, sans-serif;
+    align-items: center;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    float: right;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 216px;
+    order: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: right;
+    user-select: none;
+    white-space: nowrap;
+    z-index: 987;
+}
+
+#mail_images {
+    padding-left: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    flex: 0 0 auto;
+    line-height: normal;
+    white-space: nowrap;
+    text-align: right;
+    font-size: 13px;
+    background: #fff;
+    color: #222;
+    font-family: arial, sans-serif;
+    cursor: pointer;
+    outline-style: none;
+    outline-width: 0px;
+    text-decoration-color: #222;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    user-select: none;
+}
