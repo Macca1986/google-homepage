@@ -7,37 +7,64 @@
     </head>
 
     <body>
-        <div id="topmenu" style="display:flex"><!-- top menu here -->   
-            <div id="top_buttons">
-                <div id="mail_images" style="display:flex">
-                    <div id="mail_link">
-                        <a>
-                            Mail
-                        </a>
-                    </div>
-                    <div id="image_link">
-                        <a>
-                            Images
-                        </a>
-                    </div>
+        <div id="whole_page"> <!-- Container for entire page-->
+            <div class="container" id="top_bar"> <!-- Container for the top menu bar -->
+                <div id="mail-button">
+                    <a href="">Mail</a>
+                </div>
+                <div id="images-button">
+                    <a href="">Images</a>
+                </div>
+                <div>
+                    <img src="apps.png">
+                </div>
+                <div>
+                    <img id="bell-img" src="bell_and_gmail.png">
                 </div>
             </div>
-        </div>
 
-        <div><!-- The Google image will go in this box -->
-            The Google image will go in this box  
-        </div>
-
-        <div><!-- The search bar and buttons will go in this div -->
-            Search bar and buttons in here
-        </div>
-
-        <div><!-- The country indicator is in this bar -->
-            County indicator
-        </div>
-
-        <div><!-- The bottom buttons go in this bar -->
-            Bottom button bar
+            <div id="logo_container"> <!-- Container to hold the Google logo -->
+                <img class="center" id="google_logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            </div>
+            <div id="search_container">
+                <div id="search_bar"> <!-- Container for the search bar -->
+                    <input id="search_box" class="center" type="text" placeholder="">
+                </div>
+                <div id="search_buttons"> <!-- Container for search and IFL buttons -->
+                    <button class="search_button" type="button">Google Search</button>
+                    <button class="search_button" type="button">I'm Feeling Lucky</button>
+                </div>
+            </div>
+            <div class="footer">
+                <div id="country_box"> <!-- Container for the country the searcher is in -->
+                    <div>
+                        Australia
+                    </div>
+                </div>
+                <div class="bottom_container" id="bottom_buttons"> <!-- Container for the buttons at the bottom of the Google Page -->
+                    <div id="advertising">
+                        Advertising
+                    </div>
+                    <div id="business">
+                        Business
+                    </div>
+                    <div id="about">
+                        About
+                    </div>
+                    <div id="spacer">
+                    </div>
+                    <div id="privacy">
+                        Privacy
+                    </div>
+                    <div id="terms">
+                        Terms
+                    </div>
+                    <div id="settings">
+                        Settings
+                    </div> 
+                </div>
+            </div>
+            
         </div>
     </body>
 </html>
